@@ -1,0 +1,58 @@
+env:
+  TERM: xterm-256color
+window:
+  padding:
+    x: 25
+    y: 25
+
+tabspaces: 2
+draw_bold_text_with_bright_colors: true
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal: 
+    family: Cozette
+  
+  bold:
+    family: Cozette
+
+  italic:
+    family: Cozette
+
+  cursor:
+    style: Block
+    unfocuses_hollow: true
+
+colors:
+  primary:
+    background: '0x171717'
+    foreground: '0xb8b9b4'
+
+  normal:
+    black: '0x292927'
+    red: '0x939490'
+    green: '0x5e5e5c'
+    yellow: '0xb6b8b3'
+    blue: '0x727370'
+    magenta: '0x00d7ff'
+    cyan: '0x636361'
+    white: '0xaaaba6'
+
+  bright:
+    black: '0x2e2e2c'
+    red: '0x989995'
+    green: '0x636361'
+    yellow: '0xbbbdb8'
+    blue: '0x777875'
+    magenta: '0xd6d6d0'
+    cyan: '0x696966'
+    white: '0xafb0ab'
+
+key_bindings:
+  - { key: Equals,   mods: Control,       action: IncreaseFontSize }
+  - { key: Add,      mods: Control,       action: IncreaseFontSize }
+  - { key: Subtract, mods: Control,       action: DecreaseFontSize }
+  - { key: Minus,    mods: Control,       action: DecreaseFontSize }
