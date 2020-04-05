@@ -1,11 +1,10 @@
 env:
-  TERM: xterm-256color
+  TERM: alacritty
 window:
   padding:
     x: 25
     y: 25
 
-tabspaces: 2
 draw_bold_text_with_bright_colors: true
 
 scrolling:
@@ -28,8 +27,8 @@ font:
 
 colors:
   primary:
-    background: '0x171717'
-    foreground: '0xb8b9b4'
+    background: '0x000000'
+    foreground: '0xffffff'
 
   normal:
     black: '0x292927'
@@ -45,10 +44,10 @@ colors:
     black: '0x2e2e2c'
     red: '0x989995'
     green: '0x636361'
-    yellow: '0xbbbdb8'
+    yellow: '0xcff8df' # def/if/else
     blue: '0x777875'
     magenta: '0xd6d6d0'
-    cyan: '0x696966'
+    cyan: '0x00d7ff' # func names
     white: '0xafb0ab'
 
 key_bindings:
