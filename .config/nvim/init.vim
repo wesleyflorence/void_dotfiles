@@ -16,7 +16,9 @@ Plug 'junegunn/fzf.vim',
 Plug 'neoclide/coc.nvim', {'branch': 'release'},
 Plug 'junegunn/goyo.vim',
 Plug 'tpope/vim-dadbod',
-Plug 'alcesleo/vim-uppercase-sql'
+Plug 'alcesleo/vim-uppercase-sql',
+Plug 'tomlion/vim-solidity',
+Plug 'jiangmiao/auto-pairs'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 "==============================================================
